@@ -1,12 +1,13 @@
-rows = 5
-for i in range(0, rows):
-    for j in range(0, i + 1):
-        print("*", end=' ')
-    print("\r")
+import math
+h=7
+r=4
+#calculating the volume
+vol = (1/3)*(math.pi)*r*r*h
+print("Volume : ", str(vol))
 
-for i in range(rows, 0, -1):
-    for j in range(0, i - 1):
-        print("*", end=' ')
-    print("\r")
-    
- 
+
+h1=10
+r1=5
+#calculating the volume
+vol1 = (1/3)*(math.pi)*r1*r1*h1
+print("Volume1: ", str(vol1))
